@@ -1,0 +1,100 @@
+* {
+  font-family: roboto;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+.container {
+  display: flex;
+  margin-top: 150px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Format all of the sliders */
+.slider {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Adjust slider appearance - range */
+input[type="range"] {
+  width: 200px;
+  height: 20px;
+  -webkit-appearance: none;
+  background: none;
+  overflow: hidden;
+  outline: none;
+}
+
+/* Adjust slider appearance - dot */
+input[type="range"]::-webkit-slider-thumb {
+  position: relative;
+  top: -5px;
+  width: 15px;
+  height: 15px;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: #6279b8;
+}
+
+/* Adjust slider appearance - range color */
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 5px;
+  background: white;
+  border-radius: 10%;
+}
+
+/* Word decorations */
+span {
+  width: 90px;
+  height: 30px;
+  margin: 10px 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+
+input[type="text"] {
+  width: 55px;
+  height: 30px;
+  margin: 10px 5px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
+}
+
+input[type="text"]::placeholder {
+  color: white;
+}
+
+.R {
+  background-color: #ff0000;
+}
+
+.G {
+  background-color: #00ff00;
+}
+
+.B {
+  background-color: #0000ff;
+}
+
+.hex {
+  margin-top: 10px;
+  width: 240px;
+  text-align: center;
+  background: gray;
+  border-radius: 5px;
+  color: white;
+  opacity: 0.9;
+}
