@@ -4,4 +4,4 @@
 
 The RGB to Hex Converter help you explore yor favorited color by adjusting slider or inputting number.
 
-You can view the live version from my codepen [here](https://codepen.io/EmilyCC/full/PojYVBX).
+You can view the live version from my GitHub page [here](https://yuhsuanemilychen.github.io/RGB-to-Hex-Converter/).
